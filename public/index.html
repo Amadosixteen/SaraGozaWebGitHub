@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Goza | Restaurante Gourmet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Sara Goza - Carnes y Parrilas</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#menu">Menú</a>
+                <a href="#experiencia">Experiencia</a>
+                <a href="#reservas">Reservas</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Experiencia Culinaria Excepcional</h2>
+            <p>Gastronomía en un ambiente sofisticado</p>
+            <a href="#reservas" class="btn-reservar">Reservar Mesa</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Nuestra Filosofía</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>En Sara Goza, creemos que cada plato cuenta una historia. Nuestro chef ejecutivo combina técnicas tradicionales con enfoques innovadores para crear experiencias gastronómicas memorables.</p>
+                    <p>Utilizamos ingredientes locales de la más alta calidad, seleccionados diariamente para garantizar frescura y sabor excepcionales en cada creación.</p>
+                </div>
+                <div class="about-image">
+                    <img src="saragozaimg.jpg" alt="Restaurante Sara Goza" class="restaurant-image">
+                </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Nuestro Menú</h2>
+            <div class="menu-categories">
+                <div class="menu-category">
+                    <h3>Entrantes</h3>
+                    <div class="menu-item">
+                        <h4>Carpaccio de Remolacha</h4>
+                        <p>Con queso de cabra, nueces caramelizadas y vinagreta de miel</p>
+                        <span class="price">18€</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Tartar de Atún</h4>
+                        <p>Con aguacate, mango y emulsión de wasabi</p>
+                        <span class="price">22€</span>
+                    </div>
+                </div>
+                
+                <div class="menu-category">
+                    <h3>Platos Principales</h3>
+                    <div class="menu-item">
+                        <h4>Risotto de Trufa Negra</h4>
+                        <p>Con setas silvestres y parmesano de 24 meses</p>
+                        <span class="price">26€</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Lubina Salvaje</h4>
+                        <p>Con puré de coliflor, espárragos y salsa de champagne</p>
+                        <span class="price">32€</span>
+                    </div>
+                </div>
+                
+                <div class="menu-category">
+                    <h3>Postres</h3>
+                    <div class="menu-item">
+                        <h4>Texturas de Chocolate</h4>
+                        <p>Mousse, crumble y helado de chocolate con toque de sal marina</p>
+                        <span class="price">14€</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Tarta de Limón Deconstruida</h4>
+                        <p>Con merengue italiano flambeado y sorbete de albahaca</p>
+                        <span class="price">12€</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="experience">
+        <div class="container">
+            <h2>La Experiencia Sara Goza</h2>
+            <div class="experience-grid">
+                <div class="experience-item">
+                    <h3>Menú Degustación</h3>
+                    <p>Siete tiempos con maridaje de vinos seleccionados por nuestro sommelier</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Chef's Table</h3>
+                    <p>Una experiencia exclusiva con vista directa a nuestra cocina</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Cenas Privadas</h3>
+                    <p>Espacios íntimos para celebraciones especiales</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservas" class="reservations">
+        <div class="container">
+            <h2>Reservas</h2>
+            <p class="reservation-intro">Para vivir la experiencia Sara Goza, reserve su mesa con anticipación.</p>
+            <form class="reservation-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Nombre completo" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Teléfono" required>
+                </div>
+                <div class="form-group">
+                    <input type="date" required>
+                </div>
+                <div class="form-group">
+                    <input type="time" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="" disabled selected>Número de comensales</option>
+                        <option value="1">1 persona</option>
+                        <option value="2">2 personas</option>
+                        <option value="3">3 personas</option>
+                        <option value="4">4 personas</option>
+                        <option value="5">5 personas</option>
+                        <option value="6">6 personas</option>
+                        <option value="more">Más de 6 personas</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Solicitudes especiales o alergias"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Solicitar Reserva</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-info">
+                <div class="contact-details">
+                    <p><strong>Dirección:</strong> Calle Elegancia 25, 28001 Madrid</p>
+                    <p><strong>Teléfono:</strong> +34 91 123 45 67</p>
+                    <p><strong>Email:</strong> info@saragoza.com</p>
+                    <p><strong>Horario:</strong></p>
+                    <p>Martes a Sábado: 13:30 - 15:30 y 20:00 - 23:00</p>
+                    <p>Domingo y Lunes: Cerrado</p>
+                </div>
+                <div class="map-placeholder">
+                    Mapa de ubicación
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Sara Goza</h2>
+                    <p>Gastronomía de autor</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#menu">Menú</a>
+                    <a href="#experiencia">Experiencia</a>
+                    <a href="#reservas">Reservas</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Sara Goza. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
